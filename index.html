@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form</title>
+</head>
+
+<body>
+     <h1>My Bio Data</h1>
+     <fieldset>
+          <legend>Personal Information</legend>
+          <h5>Filling * part is compulsory </h5>
+          <form action="" method="get">
+               <label for="username">Username* :</label>
+               <input type="text" id="username" name="user" placeholder="Usrname" required>
+               <br> <br>
+
+               <label for="password">Password* :</label>
+               <input type="Password" id="password" placeholder="Password" required>
+               <br> <br>
+
+               E-mail : <input type="email" placeholder="Email">
+               <br> <br>
+
+               <label for="mobile"> Mobile No. : </label>
+               <input type="tel" name="" id="mobile" placeholder="Mobile Number" maxlength="10">
+               <br> <br>
+
+               DOB : <input type="date" name="" id="" >
+               <br><br>
+               Time : <input type="time" name="" id="" placeholder="Time">
+               <br><br>
+
+               Gender
+               <label for="male">Male</label>
+               <input type="radio" name="gender" id="male">
+
+               <label for="female">Female</label>
+               <input type="radio" name="gender" id="female">
+
+               <label for="other">Other</label>
+               <input type="radio" name="gender" id="other">
+
+
+
+               <br> <br> <br>
+               <fieldset>
+                    <legend>Educational Information</legend>
+                    School_Name : <input type="text" name="" id="" placeholder="School_Name">
+                    <br> <br>
+                    College_Name : <input type="text" name="" id="" placeholder="College_Name">
+                    <br><br>
+                    Course : <input type="text" name="" id="" placeholder="Course_Name">
+                    <br><br>
+                    <select name="" id="" required>
+                         <option value="">Branch Name*</option>
+                         <option>CSE </option>
+                         <option value="">ME</option>
+                         <option value="">CE</option>
+                         <option value="">EE</option>
+                    </select>
+
+                    <br><br><br>
+                    <label for="marksheet">Marksheet* : </label>
+                    <input type="file" name="" id="marksheet" placeholder="CLASS X" required>
+                    <br><br>
+                    <label for="marksheet">Marksheet* : </label>
+                    <input type="file" name="" id="marksheet" placeholder="CLASS XII" required>
+
+               </fieldset>
+
+               <br><br>
+               Extra Information
+               <textarea name="" id="" cols="20" rows="10"> </textarea>
+
+               <br><br>
+               I Agree
+               <input type="checkbox" name="" id="">
+
+     </fieldset>
+
+     <input type="submit">
+
+     </form>
+</body>
+
+</html>
